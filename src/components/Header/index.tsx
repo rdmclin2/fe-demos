@@ -1,33 +1,8 @@
-import { GithubOutlined } from '@ant-design/icons';
-import { Button, Dropdown, Space } from 'antd';
+import { Header as LobeHeader, ThemeSwitch } from '@lobehub/ui';
 import { type ReactNode, memo } from 'react';
-import styled from 'styled-components';
 import { shallow } from 'zustand/shallow';
 
-import PackageJson from '@/../package.json';
 import { useAppStore } from '@/store';
-
-import Logo from './Logo';
-import { ThemeList, themeIcon } from './style';
-
-/******************************************************
- *********************** Style *************************
- ******************************************************/
-const View = styled.div`
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-
-  height: 46px;
-  padding: 16px 24px;
-
-  background: ${({ theme }) => theme.colorBgContainer};
-  border-bottom: 1px solid ${({ theme }) => theme.colorBorderSecondary};
-`;
-
-/******************************************************
- ************************* Dom *************************
- ******************************************************/
 
 interface HeaderProps {
   children?: ReactNode;
@@ -40,24 +15,12 @@ const Header = memo<HeaderProps>(({ children }) => {
   );
 
   return (
-    <View>
-      <Logo />
-      <Space>
-        {children}
-        <a href={PackageJson.repository.url} rel="noreferrer" target="_blank">
-          <Button icon={<GithubOutlined />} />
-        </a>
-        <Dropdown
-          menu={{
-            items: ThemeList({ onSetThemeMode }),
-          }}
-          placement="bottomRight"
-          trigger={['click']}
-        >
-          <Button icon={themeIcon[themeMode]} />
-        </Dropdown>
-      </Space>
-    </View>
+    <LobeHeader
+      actions={[<ThemeSwitch key="theme" onThemeSwitch={onSetThemeMode} themeMode={themeMode} />]}
+      logo={'FEDemos'}
+    >
+      {children}
+    </LobeHeader>
   );
 });
 
