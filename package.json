@@ -1,17 +1,17 @@
 {
-  "name": "canisminor-template",
+  "name": "fe-demos",
   "version": "1.2.2",
   "private": true,
-  "homepage": "https://github.com/canisminor-template",
+  "homepage": "https://github.com/rdmclin2/fe-demos",
   "bugs": {
-    "url": "https://github.com/canisminor-template/issues/new"
+    "url": "https://github.com/rdmclin2/fe-demos/issues/new"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/canisminor1990/canisminor-template.git"
+    "url": "https://github.com/rdmclin2/fe-demos.git"
   },
   "license": "MIT",
-  "author": "canisminor1990 <i@canisminor.cc>",
+  "author": "rdmclin2 <rdmclin2@gmail.com>",
   "sideEffects": false,
   "scripts": {
     "build": "umi build",

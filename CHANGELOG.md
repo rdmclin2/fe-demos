@@ -2,7 +2,7 @@
 
 # Changelog
 
-### [Version 1.2.2](https://github.com/canisminor1990/canisminor-template/compare/v1.2.1...v1.2.2)
+### [Version 1.2.2](https://github.com/rdmclin2/fe-demos/compare/v1.2.1...v1.2.2)
 
 <sup>Released on **2023-06-16**</sup>
 
@@ -17,7 +17,7 @@
 
 #### Code refactoring
 
-- **misc**: Better format ([5a2bc18](https://github.com/canisminor1990/canisminor-template/commit/5a2bc18))
+- **misc**: Better format ([5a2bc18](https://github.com/rdmclin2/fe-demos/commit/5a2bc18))
 
 </details>
 
@@ -33,7 +33,7 @@
 
 #### 💄 Styles
 
-- **misc**: Update ignore files for canisminor1990.
+- **misc**: Update ignore files for rdmclin2.
 
 <br/>
 
@@ -42,7 +42,7 @@
 
 #### Styles
 
-- **misc**: Update ignore files for canisminor1990 ([0c0efd3](https://github.com/canisminor1990/canisminor-template/commit/0c0efd3))
+- **misc**: Update ignore files for rdmclin2 ([0c0efd3](https://github.com/rdmclin2/fe-demos/commit/0c0efd3))
 
 </details>
 
@@ -67,7 +67,7 @@
 
 #### What's improved
 
-- **misc**: Add linting for Markdown files ([538b0e6](https://github.com/canisminor1990/canisminor-template/commit/538b0e6))
+- **misc**: Add linting for Markdown files ([538b0e6](https://github.com/rdmclin2/fe-demos/commit/538b0e6))
 
 </details>
 
@@ -92,7 +92,7 @@
 
 #### What's improved
 
-- **misc**: Update ([6fdcc8c](https://github.com/canisminor1990/canisminor-template/commit/6fdcc8c))
+- **misc**: Update ([6fdcc8c](https://github.com/rdmclin2/fe-demos/commit/6fdcc8c))
 
 </details>
 
@@ -117,7 +117,7 @@
 
 #### Styles
 
-- **misc**: Update ESLint configuration and add Prettier configuration ([5ac1ae9](https://github.com/canisminor1990/canisminor-template/commit/5ac1ae9))
+- **misc**: Update ESLint configuration and add Prettier configuration ([5ac1ae9](https://github.com/rdmclin2/fe-demos/commit/5ac1ae9))
 
 </details>
 
@@ -142,7 +142,7 @@
 
 #### Styles
 
-- **misc**: Update stylelint ([3c9655e](https://github.com/canisminor1990/canisminor-template/commit/3c9655e))
+- **misc**: Update stylelint ([3c9655e](https://github.com/rdmclin2/fe-demos/commit/3c9655e))
 
 </details>
 
@@ -167,7 +167,7 @@
 
 #### What's improved
 
-- **misc**: Update demo ([bbb6ce5](https://github.com/canisminor1990/canisminor-template/commit/bbb6ce5))
+- **misc**: Update demo ([bbb6ce5](https://github.com/rdmclin2/fe-demos/commit/bbb6ce5))
 
 </details>
 

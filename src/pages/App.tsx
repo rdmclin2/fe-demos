@@ -1,7 +1,7 @@
 import { memo } from 'react';
 
 const App = memo(() => {
-  return <div>CanisMinor Template</div>;
+  return <div>FE demos</div>;
 });
 
 export default App;
