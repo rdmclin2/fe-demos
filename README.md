@@ -2,11 +2,7 @@
 
 <div align="center">
 
-<img width="160" src="https://avatars.githubusercontent.com/u/17870709?v=4">
-
-<h1>CanisMinor Template</h1>
-
-This is a template repo for canisminor1990
+<h1> Front End Demos </h1>
 
 [Changelog](./CHANGELOG.md) · [Report Bug][issues-url] · [Request Feature][issues-url]
 
@@ -31,7 +27,6 @@ This is a template repo for canisminor1990
 #### TOC
 
 - [⌨️ Local Development](#️-local-development)
-- [🤝 Contributing](#-contributing)
 
 ####
 
@@ -39,15 +34,9 @@ This is a template repo for canisminor1990
 
 ## ⌨️ Local Development
 
-You can use Gitpod for online development:
-
-[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)][gitpod-url]
-
-Or clone it for local development:
-
 ```bash
-$ git clone https://github.com/canisminor1990/canisminor-template.git
-$ cd canisminor-template
+$ git clone https://github.com/rdmclin2/fe-demos.git
+$ cd fe-demos
 $ npm install
 $ npm start
 ```
@@ -58,41 +47,10 @@ $ npm start
 
 </div>
 
-## 🤝 Contributing
-
-<!-- CONTRIBUTION GROUP -->
-
-> 📊 Total: <kbd>**3**</kbd>
-
-<a href="https://github.com/canisminor1990" title="canisminor1990">
-  <img src="https://avatars.githubusercontent.com/u/17870709?v=4" width="50" />
-</a>
-<a href="https://github.com/actions-user" title="actions-user">
-  <img src="https://avatars.githubusercontent.com/u/65916846?v=4" width="50" />
-</a>
-<a href="https://github.com/apps/dependabot" title="dependabot[bot]">
-  <img src="https://avatars.githubusercontent.com/in/29110?v=4" width="50" />
-</a>
-
-<!-- CONTRIBUTION END -->
-
-<div align="right">
-
-[![][back-to-top]](#readme-top)
-
-</div>
-
----
-
-#### 📝 License
-
-Copyright © 2023 [CanisMinor][profile-url]. <br />
-This project is [MIT](./LICENSE) licensed.
-
 <!-- LINK GROUP -->
 
-[profile-url]: https://github.com/canisminor1990
-[gitpod-url]: https://gitpod.io/#https://github.com/canisminor1990/canisminor-template
+[profile-url]: https://github.com/rdmclin2
+[gitpod-url]: https://gitpod.io/#https://github.com/rdmclin2/fe-demos
 
 <!-- SHIELD LINK GROUP -->
 
@@ -100,40 +58,40 @@ This project is [MIT](./LICENSE) licensed.
 
 <!-- release -->
 
-[release-shield]: https://img.shields.io/github/v/release/canisminor1990/canisminor-template?style=flat&sort=semver&logo=github
-[release-url]: https://github.com/canisminor1990/canisminor-template/releases
+[release-shield]: https://img.shields.io/github/v/release/rdmclin2/fe-demos?style=flat&sort=semver&logo=github
+[release-url]: https://github.com/rdmclin2/fe-demos/releases
 
 <!-- releaseDate -->
 
-[release-date-shield]: https://img.shields.io/github/release-date/canisminor1990/canisminor-template?style=flat
-[release-date-url]: https://github.com/canisminor1990/canisminor-template/releases
+[release-date-shield]: https://img.shields.io/github/release-date/rdmclin2/fe-demos?style=flat
+[release-date-url]: https://github.com/rdmclin2/fe-demos/releases
 
 <!-- ciTest -->
 
-[ci-test-shield]: https://github.com/canisminor1990/canisminor-template/workflows/Test%20CI/badge.svg
-[ci-test-url]: https://github.com/canisminor1990/canisminor-template/actions/workflows/test.yml
+[ci-test-shield]: https://github.com/rdmclin2/fe-demos/workflows/Test%20CI/badge.svg
+[ci-test-url]: https://github.com/rdmclin2/fe-demos/actions/workflows/test.yml
 
 <!-- ciRelease -->
 
-[ci-release-shield]: https://github.com/canisminor1990/canisminor-template/workflows/Build%20and%20Release/badge.svg
-[ci-release-url]: https://github.com/canisminor1990/canisminor-template/actions/workflows/release.yml
+[ci-release-shield]: https://github.com/rdmclin2/fe-demos/workflows/Build%20and%20Release/badge.svg
+[ci-release-url]: https://github.com/rdmclin2/fe-demos/actions/workflows/release.yml
 
 <!-- contributors -->
 
-[contributors-shield]: https://img.shields.io/github/contributors/canisminor1990/canisminor-template.svg?style=flat
-[contributors-url]: https://github.com/canisminor1990/canisminor-template/graphs/contributors
+[contributors-shield]: https://img.shields.io/github/contributors/rdmclin2/fe-demos.svg?style=flat
+[contributors-url]: https://github.com/rdmclin2/fe-demos/graphs/contributors
 
 <!-- forks -->
 
-[forks-shield]: https://img.shields.io/github/forks/canisminor1990/canisminor-template.svg?style=flat
-[forks-url]: https://github.com/canisminor1990/canisminor-template/network/members
+[forks-shield]: https://img.shields.io/github/forks/rdmclin2/fe-demos.svg?style=flat
+[forks-url]: https://github.com/rdmclin2/fe-demos/network/members
 
 <!-- stargazers -->
 
-[stargazers-shield]: https://img.shields.io/github/stars/canisminor1990/canisminor-template.svg?style=flat
-[stargazers-url]: https://github.com/canisminor1990/canisminor-template/stargazers
+[stargazers-shield]: https://img.shields.io/github/stars/rdmclin2/fe-demos.svg?style=flat
+[stargazers-url]: https://github.com/rdmclin2/fe-demos/stargazers
 
 <!-- issues -->
 
-[issues-shield]: https://img.shields.io/github/issues/canisminor1990/canisminor-template.svg?style=flat
-[issues-url]: https://github.com/canisminor1990/canisminor-template/issues/new/choose
+[issues-shield]: https://img.shields.io/github/issues/rdmclin2/fe-demos.svg?style=flat
+[issues-url]: https://github.com/rdmclin2/fe-demos/issues/new/choose
