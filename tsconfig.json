@@ -1,5 +1,6 @@
 {
   "compilerOptions": {
+    "target": "es5",
     "baseUrl": ".",
     "declaration": true,
     "downlevelIteration": true,
@@ -10,6 +11,7 @@
     "skipLibCheck": true,
     "strict": true
   },
+  "exclude": ["node_modules"],
   "extends": "./src/.umi/tsconfig.json",
-  "include": ["src", "*.ts"]
+  "include": ["src", "**/*.ts", "**/*.tsx", "src/types/*.d.ts"]
 }
