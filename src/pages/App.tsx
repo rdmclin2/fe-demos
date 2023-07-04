@@ -16,7 +16,15 @@ const App = memo(() => {
             }}
             title={'查看 Demo'}
           />,
-          <ActionIcon icon={LucideIcon.Github} key="github" title={'查看源码'} />,
+          <ActionIcon
+            icon={LucideIcon.Github}
+            key="github"
+            onClick={() => {
+              location.href =
+                'https://github.com/rdmclin2/fe-demos/blob/master/src/pages/demos/SpeechRecognition/index.tsx';
+            }}
+            title={'查看源码'}
+          />,
         ]}
         bordered
         colSpan={6}
