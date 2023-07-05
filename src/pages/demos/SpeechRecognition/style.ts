@@ -8,7 +8,7 @@ const useStyles = createStyles(({ css }) => {
       align-items: center;
       justify-content: center;
 
-      height: 100vh;
+      height: 100%;
     `,
     message: css`
       margin-top: 12px;

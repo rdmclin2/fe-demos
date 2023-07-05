@@ -1,5 +1,7 @@
-import { Header as LobeHeader, ThemeSwitch } from '@lobehub/ui';
+import { ActionIcon, GradientButton, Header as LobeHeader, ThemeSwitch } from '@lobehub/ui';
+import { Github } from 'lucide-react';
 import { type ReactNode, memo } from 'react';
+import { Link } from 'umi';
 import { shallow } from 'zustand/shallow';
 
 import { useAppStore } from '@/store';
@@ -16,8 +18,22 @@ const Header = memo<HeaderProps>(({ children }) => {
 
   return (
     <LobeHeader
-      actions={[<ThemeSwitch key="theme" onThemeSwitch={onSetThemeMode} themeMode={themeMode} />]}
-      logo={'FEDemos'}
+      actions={[
+        <a
+          href="https://github.com/rdmclin2/fe-demos"
+          key="github"
+          rel="noreferrer"
+          target="_blank"
+        >
+          <ActionIcon icon={Github} />
+        </a>,
+        <ThemeSwitch key="theme" onThemeSwitch={onSetThemeMode} themeMode={themeMode} />,
+      ]}
+      logo={
+        <Link to="/">
+          <GradientButton>FEDemos</GradientButton>
+        </Link>
+      }
     >
       {children}
     </LobeHeader>

@@ -2,29 +2,24 @@ import { ProCard } from '@ant-design/pro-components';
 import { ActionIcon } from '@lobehub/ui';
 import * as LucideIcon from 'lucide-react';
 import { memo } from 'react';
+import { Link } from 'umi';
 
 const App = memo(() => {
   return (
     <ProCard collapsible gutter={8} title="浏览器 API">
       <ProCard
         actions={[
-          <ActionIcon
-            icon={LucideIcon.Laptop}
-            key="setting"
-            onClick={() => {
-              location.href = '/demos/SpeechRecognition';
-            }}
-            title={'查看 Demo'}
-          />,
-          <ActionIcon
-            icon={LucideIcon.Github}
+          <Link key="setting" to="/demos/SpeechRecognition">
+            <ActionIcon icon={LucideIcon.Laptop} title={'查看 Demo'} />
+          </Link>,
+          <a
+            href="https://github.com/rdmclin2/fe-demos/blob/master/src/pages/demos/SpeechRecognition/index.tsx"
             key="github"
-            onClick={() => {
-              location.href =
-                'https://github.com/rdmclin2/fe-demos/blob/master/src/pages/demos/SpeechRecognition/index.tsx';
-            }}
-            title={'查看源码'}
-          />,
+            rel="noreferrer"
+            target="_blank"
+          >
+            <ActionIcon icon={LucideIcon.Github} title={'查看源码'} />
+          </a>,
         ]}
         bordered
         colSpan={6}
