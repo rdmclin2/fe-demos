@@ -2,9 +2,12 @@ import { ActionIcon } from '@lobehub/ui';
 import { Mic } from 'lucide-react';
 import { useCallback, useEffect, useState } from 'react';
 
+import useStyles from './style';
+
 const ChatBot = () => {
-  const [message, setMessage] = useState<string>('123');
+  const [message, setMessage] = useState<string>('打开梯子，说中文');
   const [isRecording, setIsRecording] = useState<boolean>(false);
+  const { styles } = useStyles();
 
   // eslint-disable-next-line no-undef
   const [speechRecognition, setSpeechRecognition] = useState<SpeechRecognition>();
@@ -30,6 +33,7 @@ const ChatBot = () => {
 
     const recognition = new SpeechRecognition();
     recognition.lang = 'zh-CN';
+    // recognition.lang = 'en-EN';
     recognition.interimResults = true;
     recognition.continuous = false;
 
@@ -50,9 +54,10 @@ const ChatBot = () => {
     speechRecognition?.start();
     setIsRecording(true);
   };
+
   return (
-    <div>
-      <div>{message}</div>
+    <div className={styles.container}>
+      <div className={styles.message}>{message}</div>
       <ActionIcon icon={Mic} loading={isRecording} onClick={handleRecord} />
     </div>
   );
