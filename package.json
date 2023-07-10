@@ -63,7 +63,7 @@
     "antd": ">=5",
     "antd-style": ">=3",
     "babel-plugin-styled-components": "^2",
-    "lucide-react": "^0.258.0",
+    "lucide-react": "^0.259.0",
     "polished": "^4",
     "react": ">=18",
     "react-dom": ">=18",
