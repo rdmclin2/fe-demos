@@ -53,7 +53,7 @@
   },
   "dependencies": {
     "@ant-design/icons": "^5",
-    "@ant-design/pro-components": "^2.6.4",
+    "@ant-design/pro-components": "^2.6.5",
     "@ant-design/pro-editor": "^0.8.1",
     "@lobehub/ui": "^1.29.2",
     "@types/react": "^18",
