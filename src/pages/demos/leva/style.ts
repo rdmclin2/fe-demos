@@ -5,10 +5,9 @@ const useStyles = createStyles(({ css }) => {
     container: css`
       display: flex;
       flex-direction: column;
+      flex-grow: 1;
       align-items: center;
       justify-content: center;
-
-      height: 100%;
     `,
   };
 });
