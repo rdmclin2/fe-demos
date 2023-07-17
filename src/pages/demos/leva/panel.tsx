@@ -9,18 +9,18 @@ export default () => {
   const presets = buttonGroup({
     label: 'Presets',
     opts: {
-      '0.25x': () => store.set({ Size: 0.25 }, true),
-      '0.5x': () => store.set({ Size: 0.5 }, true),
-      '1x': () => store.set({ Size: 1 }, true),
-      '2x': () => store.set({ Size: 2 }, true),
-      '3x': () => store.set({ Size: 3 }, true),
+      '0.25': () => store.set({ number: 0.25 }, true),
+      '0.5': () => store.set({ number: 0.5 }, true),
+      '1': () => store.set({ number: 1 }, true),
+      '2': () => store.set({ number: 2 }, true),
+      '3': () => store.set({ number: 3 }, true),
     },
   });
 
-  const { name, number, range, rgb, rgba, boolean, interval, select } = useControls(
+  const { name, number, range, rgb, rgba, boolean, interval, select, vector } = useControls(
     {
-      Size: 1,
       boolean: true,
+      boxSize: [10, 20, 30],
       buttonGroup: presets,
       foo: button((get) => alert(`Number value is ${get('number').toFixed(2)}`)),
       interval: {
@@ -46,6 +46,7 @@ export default () => {
         },
         value: 'helloWorld',
       },
+      vector: { x: 0, y: 0 },
     },
     { store },
   );
@@ -60,6 +61,7 @@ export default () => {
       <div>boolean: {boolean}</div>
       <div>interval: {JSON.stringify(interval)}</div>
       <div>options: {JSON.stringify(select)}</div>
+      <div>vector: {JSON.stringify(vector)}</div>
     </div>
   );
 };
