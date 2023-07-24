@@ -56,7 +56,7 @@
     "@ant-design/pro-components": "^2.6.4",
     "@ant-design/pro-editor": "^0.8.1",
     "@leva-ui/plugin-bezier": "^0.9.19",
-    "@lobehub/ui": "^1.29.2",
+    "@lobehub/ui": "^1.55.0",
     "@types/react": "^18",
     "@types/react-dom": "^18",
     "@types/styled-components": "^5",
