@@ -54,7 +54,7 @@
   "dependencies": {
     "@ant-design/icons": "^5",
     "@ant-design/pro-components": "^2.6.4",
-    "@ant-design/pro-editor": "^0.8.1",
+    "@ant-design/pro-editor": "^0.9.0",
     "@leva-ui/plugin-bezier": "^0.9.19",
     "@lobehub/ui": "^1.29.2",
     "@pixiv/three-vrm": "^2.0.1",
