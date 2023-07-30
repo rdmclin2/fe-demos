@@ -80,6 +80,7 @@
     "@commitlint/cli": "^17",
     "@lobehub/lint": "latest",
     "@types/node": "^20",
+    "@types/three": "^0.154.0",
     "commitlint": "^17",
     "eslint": "^8",
     "husky": "^8",

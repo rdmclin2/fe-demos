@@ -20,6 +20,13 @@ const config = [
         path: '/demos/leva',
         title: 'Leva GUI 组件库',
       },
+      {
+        article: '',
+        code: 'https://github.com/rdmclin2/fe-demos/blob/master/src/pages/demos/three-vrm/index.tsx',
+        description: '使用 Three.js 加载 VRM 模型',
+        path: '/demos/three-vrm',
+        title: 'Three.js VRM 模型',
+      },
     ],
     title: '前端组件库',
   },
