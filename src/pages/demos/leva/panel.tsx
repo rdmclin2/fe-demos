@@ -33,6 +33,7 @@ export default () => {
         value: [4, 5],
       },
       name: 'World',
+      number: 1,
       opacity: { label: '透明度', value: 0.5 },
       range: {
         max: 10,

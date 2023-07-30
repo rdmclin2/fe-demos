@@ -57,6 +57,7 @@
     "@ant-design/pro-editor": "^0.8.1",
     "@leva-ui/plugin-bezier": "^0.9.19",
     "@lobehub/ui": "^1.29.2",
+    "@pixiv/three-vrm": "^2.0.1",
     "@types/react": "^18",
     "@types/react-dom": "^18",
     "@types/styled-components": "^5",
@@ -71,6 +72,7 @@
     "react": ">=18",
     "react-dom": ">=18",
     "styled-components": "^6",
+    "three": "^0.155.0",
     "umi": "^4",
     "zustand": "^4"
   },
