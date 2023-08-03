@@ -27,6 +27,13 @@ const config = [
         path: '/demos/three-vrm',
         title: 'Three.js VRM 模型',
       },
+      {
+        article: '',
+        code: 'https://github.com/rdmclin2/fe-demos/blob/master/src/pages/demos/react-three-fiber/index.tsx',
+        description: 'React Three Fiber 是一套适配 React 的 Three.js 组件库',
+        path: '/demos/react-three-fiber',
+        title: 'React Three Fiber 示例',
+      },
     ],
     title: '前端组件库',
   },
