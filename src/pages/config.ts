@@ -20,6 +20,18 @@ const config = [
         path: '/demos/leva',
         title: 'Leva GUI 组件库',
       },
+    ],
+    title: '前端组件库',
+  },
+  {
+    demos: [
+      {
+        article: '',
+        code: 'https://github.com/rdmclin2/fe-demos/blob/master/src/pages/demos/three/index.tsx',
+        description: 'Three.js 基础 React 示例',
+        path: '/demos/three',
+        title: 'Three.js 示例',
+      },
       {
         article: '',
         code: 'https://github.com/rdmclin2/fe-demos/blob/master/src/pages/demos/three-vrm/index.tsx',
@@ -35,7 +47,7 @@ const config = [
         title: 'React Three Fiber 示例',
       },
     ],
-    title: '前端组件库',
+    title: '3D 相关',
   },
 ];
 
