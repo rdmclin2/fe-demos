@@ -9,7 +9,7 @@ export default () => {
       }}
     >
       <Canvas>
-        <ambientLight intensity={0.1} />
+        <ambientLight intensity={0.5} position={[0, 0, 5]} />
         <directionalLight color="red" position={[0, 0, 5]} />
         <mesh>
           <boxGeometry />
