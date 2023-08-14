@@ -82,7 +82,7 @@
     "@lobehub/lint": "latest",
     "@types/node": "^20.4.8",
     "@types/three": "^0.154.0",
-    "commitlint": "^17.6.7",
+    "commitlint": "^17.7.1",
     "eslint": "^8.46.0",
     "husky": "^8.0.3",
     "lint-staged": "^13.2.3",
