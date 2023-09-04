@@ -74,7 +74,7 @@
     "react-dom": "^18.2.0",
     "styled-components": "^6.0.7",
     "three": "^0.155.0",
-    "umi": "^4.0.74",
+    "umi": "^4.0.79",
     "zustand": "^4.4.0"
   },
   "devDependencies": {
