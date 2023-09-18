@@ -80,7 +80,7 @@
   "devDependencies": {
     "@commitlint/cli": "^17.6.7",
     "@lobehub/lint": "latest",
-    "@types/node": "^20.4.8",
+    "@types/node": "^20.6.2",
     "@types/three": "^0.154.0",
     "commitlint": "^17.6.7",
     "eslint": "^8.46.0",
