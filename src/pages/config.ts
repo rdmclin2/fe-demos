@@ -33,6 +33,13 @@ const config: Config[] = [
         link: `${window.location.origin}/demos/leva`,
         title: 'Leva GUI 组件库',
       },
+      {
+        article: '',
+        code: 'https://github.com/rdmclin2/fe-demos/blob/master/src/pages/demos/handsontable/index.tsx',
+        description: 'Handsontable 是一套交叉表实现，可实现类 Excel 效果',
+        path: '/demos/handsontable',
+        title: 'Handsontable 表格库',
+      },
     ],
     title: '前端组件库',
   },
