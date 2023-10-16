@@ -87,7 +87,7 @@
     "commitlint": "^17.7.1",
     "eslint": "^8.49.0",
     "husky": "^8.0.3",
-    "lint-staged": "^13.3.0",
+    "lint-staged": "^15.0.1",
     "prettier": "^2.8.8",
     "prettier-plugin-organize-imports": "^3.2.3",
     "prettier-plugin-packagejson": "^2.4.5",
